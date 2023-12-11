@@ -20,7 +20,7 @@ const JobCard = ({ job, deleteJobs, handleAddJob }) => {
         } else {
             setEmployeeStrength('0')
         }
-    }, [])
+    }, [job])
 
     return (
         <div className="px-6 py-4 bg-white border rounded-lg relative flex">

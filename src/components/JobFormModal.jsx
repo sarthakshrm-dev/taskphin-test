@@ -1,5 +1,5 @@
 import { Dialog, Transition } from '@headlessui/react'
-import { Fragment, useEffect, useState } from 'react'
+import { Fragment, useState } from 'react'
 
 export default function MyModal({ isOpen, onClose, step, setStep, saveJobs, editJobs, formData, setFormData, editId }) {
   const [formErrors, setFormErrors] = useState({});
